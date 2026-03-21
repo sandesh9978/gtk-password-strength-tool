@@ -5,7 +5,7 @@
 #define MIN_LENGTH 8
 #define MAX_LENGTH 16
 
-// Functions to check password strength
+// Function to check password strength
 void check_password_strength(char* password, GtkWidget* result_label) {
     int length = strlen(password);
     int hasUpper = 0, hasLower = 0, hasDigit = 0, hasSpecial = 0;
